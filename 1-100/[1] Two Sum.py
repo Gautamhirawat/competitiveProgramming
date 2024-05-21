@@ -50,8 +50,8 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
     --- make a function which return the answer in list
     --- we need 2 inputs , so make first input to be list and another to be int type .
     --- make a empty dict{} it will be storing the index of - list
-    --- now we run for loop in our list and see if the other no to make teh target is present in the list 
-    --- if it is then we just return the dict stored index of the other no , and the current no in order . 
+    --- now we run for loop in our list and see if the other no to make the target is present in the list 
+    --- if it is then we just return the dict stored index of the other number , and the current number in order . 
 """
 # SOLUTION
 
@@ -59,19 +59,19 @@ class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:    # 2 input parameter and 1 output parameter 
         abc = {}                                                    # blank dict 
         for i in range(len(nums)):                                  # iterating through the list 
-            y = target - nums[i]                                    # Used to find the other no and stored as y
+            y = target - nums[i]                                    # Used to find the other number and stored as y
             if y in abc: 
-                return [abc[y],i]                                   # You can change the order with [abc[y],i]
+                return [abc[y],i]                                   # You can change the order with [i,abc[y]]
             abc[nums[i]] = i                                        # saving the current no in list with its index 
         return []
 
 
 
-# NOTE This is just for texting purpose the solution ends here only.
+# NOTE This is just for testing purpose the solution ends here only.
 #------------------------------------------------------------------------------------------------------------------------
 
 # Testing purpose only 
-     # testing the  given inputs in the 
+     # testing the  given inputs in this
     def run_tests(self):
         print(self.twoSum([2,7,11,15], 9))   # Expected Output: [0, 1]
         print(self.twoSum([3,2,4], 6))       # Expected Output: [1, 2]
