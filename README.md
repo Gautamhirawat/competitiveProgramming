@@ -1,2 +1,2 @@
 # leetCode
-Solution of all leetCode problem
+Solution of all competitiveProgramming Question
