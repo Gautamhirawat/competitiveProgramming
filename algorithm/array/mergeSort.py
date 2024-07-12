@@ -67,7 +67,7 @@ B = merge_sort_optimized(B)
 print_array(B)
 
 """
-Time Complexity: O(n log n)
+Time Complexity: O(nlog(n))
 Space Complexity: O(n)
 Use Case: Stable sorting, consistent performance, works well with large datasets and linked lists.
 """
