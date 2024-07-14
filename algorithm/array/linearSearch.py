@@ -1,6 +1,5 @@
 """
 Algo :- 
-
 define l_search(arr,value){
     for 0 <= i <= length(arr):
         if arr[i] == value 
