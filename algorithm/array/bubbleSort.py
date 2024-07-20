@@ -16,11 +16,13 @@ def bubble_sort_optimized(a):
         if not swapped:
             break
 
+
 def print_array(a):
     print("Bubble sort")
     for element in a:
         print(element, end=" ")
     print()  # for newline
+
 
 # Example usage
 B = [64, 34, 25, 12, 22, 11, 90]
@@ -30,7 +32,6 @@ print_array(B)
 B = [64, 34, 25, 12, 22, 11, 90]
 bubble_sort_optimized(B)
 print_array(B)
-
 """
 Time Complexity: O(n^2)
 Space Complexity: O(1)
