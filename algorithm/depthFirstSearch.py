@@ -7,7 +7,6 @@ def dfs(graph, start, visited=None):
         if neighbor not in visited:
             dfs(graph, neighbor, visited)
     return visited
-
 # Example usage
 graph = {
     'A': ['B', 'C'],
@@ -17,5 +16,4 @@ graph = {
     'E': ['B', 'F'],
     'F': ['C', 'E']
 }
-
 dfs(graph, 'A')
