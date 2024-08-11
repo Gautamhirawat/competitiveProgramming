@@ -1,6 +1,6 @@
 # Search Algorithms Visualization
 
-This project demonstrates various search algorithms by visualizing their execution. It includes scripts to run different search algorithms, record their execution, and convert the recordings into GIF animations for demonstration purposes.
+*This project demonstrates various search algorithms by visualizing their execution. It includes scripts to run different search algorithms, record their execution, and convert the recordings into tables in form of csv files.*
 
 ## Project Structure
 
