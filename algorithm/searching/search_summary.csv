@@ -1,0 +1,12 @@
+Algorithm,Value to Search,Value Found at Index,Total Steps Taken,Time Complexity,Space Complexity
+Hashing,715,65,0,O(1),O(n)
+Dfs,987,98,1,O(n),O(n)
+Interpolation,913,89,1,O(log log n),O(1)
+Exponential,980,99,12,O(log n),O(1)
+Binary,112,11,2,O(log n),O(1)
+Best First,213,26,26,O(n log n) on average,O(n)
+Jump,350,40,4,O(√n),O(1)
+Fibonacci,947,95,7,O(log n),O(1)
+Bfs,828,79,79,O(n),O(n)
+Linear,802,82,82,O(n),O(1)
+Ternary,N/A,N/A,N/A,N/A,N/A
