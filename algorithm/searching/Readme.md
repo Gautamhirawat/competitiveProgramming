@@ -37,9 +37,17 @@ Run All Scripts Seperately or you can run main file
 python3 main.py
 ```
 
+
+
+
 Now you can run any of the above files or there is another option that can be used to run all files one after another.
 
+
+
+
 ## Conclusion 
+
+
 
 - `Linear Search`: Sequentially checks each element until it finds the target or exhausts the list.
 - `Binary Search`: Efficiently finds the target in a sorted list by repeatedly dividing the search interval in half.
